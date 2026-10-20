@@ -16,6 +16,6 @@ public class MainActivity extends AppCompatActivity {
         findViewById(R.id.btnNetwork).setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_WIRELESS_SETTINGS)));
         findViewById(R.id.btnSound).setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_SOUND_SETTINGS)));
         findViewById(R.id.btnDisplay).setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_DISPLAY_SETTINGS)));
-        findViewById(R.id.btnBattery).setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_POWER_USAGE_SUMMARY)));
+        findViewById(R.id.btnBattery).setOnClickListener(v -> startActivity(new Intent(Settings.ACTION_BATTERY_SAVER_SETTINGS)));
     }
 }

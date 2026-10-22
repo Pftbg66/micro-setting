@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name" translatable="false">micro settings</string>
+    <string name="wifi" translatable="false">wi-fi</string>
+    <string name="bluetooth" translatable="false">bluetooth</string>
+    <string name="cellular_data" translatable="false">cellular &amp; data</string>
+    <string name="sound_volume" translatable="false">sound &amp; volume</string>
+    <string name="display_brightness" translatable="false">display &amp; brightness</string>
+    <string name="battery" translatable="false">battery</string>
+    <string name="not_available" translatable="false">Not available</string>
+</resources>
